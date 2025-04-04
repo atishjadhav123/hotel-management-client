@@ -52,15 +52,15 @@ const Home = () => {
                 </div>
 
                 <div className="hidden md:flex space-x-2 h-[40px] font-semibold">
-                    <a href="/" className="px-5 py-2 rounded-lg bg-blue-500 text-white shadow-md hover:bg-blue-600 transition">
+                    <button className="px-5 py-2 rounded-lg bg-blue-500 text-white shadow-md hover:bg-blue-600 transition">
                         Home
-                    </a>
-                    <a href="/contact" className="px-5 py-2 rounded-lg bg-blue-500 text-white shadow-md hover:bg-blue-600 transition">
+                    </button>
+                    <button className="px-5 py-2 rounded-lg bg-blue-500 text-white shadow-md hover:bg-blue-600 transition">
                         Contact
-                    </a>
-                    <a href="/location" className="px-5 py-2 rounded-lg bg-blue-500 text-white shadow-md hover:bg-blue-600 transition">
+                    </button>
+                    <button className="px-5 py-2 rounded-lg bg-blue-500 text-white shadow-md hover:bg-blue-600 transition">
                         Location
-                    </a>
+                    </button>
                 </div>
 
 
